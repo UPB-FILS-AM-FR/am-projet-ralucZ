@@ -1,13 +1,16 @@
-# Your Project Name
+# Digital Clock
 
 | | |
 |-|-|
-|`Author` | Your full name
+|`Author` | Zarnescu Raluca-Maria
 
 ## Description
-
+For this project, I aim to create a versatile digital clock using readily available components like the Raspberry Pi Pico microcontroller, an OLED display (such as SSD1306), and optionally, a Real-Time Clock (RTC) module for precise timekeeping. 
+The digital clock will not only display the current time but also offer additional features like showcasing the date, temperature, and humidity readings. 
 ## Motivation
-
+The motivation behind this project is to provide an accessible and educational example of integrating hardware components with the Raspberry Pi Pico microcontroller. 
+By designing a digital clock, we aim to demonstrate the practical application of microcontrollers in everyday devices, 
+Additionally, by incorporating features such as temperature and humidity readings, we enhance the utility of the digital clock, making it more than just a timekeeping device.
 ## Architecture
 
 ### Block diagram
@@ -22,14 +25,18 @@
 ### Components
 
 
-<!-- This is just an example, fill in with your actual components -->
+Component |	Description 
+Raspberry Pi Pico	| Main microcontroller board with RP2040 chip	
+OLED Display (SSD1306) |	Display module for showcasing time, date, and more	
+RTC Module (DS3231) |	Optional module for accurate timekeeping	
+DHT22 Temperature and Humidity Sensor |	Digital sensor for environmental data	
+Push Buttons or Rotary Encoder |	Input devices for user interaction	
+Breadboard and Jumper Wires	| Prototyping tools for circuit connections	
+Resistors and Capacitors |	Passive components for signal conditioning	
+Power Source | USB power adapter or battery pack	
+Enclosure | Protective housing for the project	
+Header Pins	| Male or female connectors for wiring	
 
-| Device | Usage | Price |
-|--------|--------|-------|
-| Activ Buzzer | Buzzer | [1.5 RON](https://www.optimusdigital.ro/ro/audio-buzzere/635-buzzer-activ-de-3-v.html?search_query=buzzer&results=61) |
-| Push Button | Button | [1 RON](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222) |
-| Jumper Wires | Connecting components | [7 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110) |
-| Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
 
 ### Libraries
 
@@ -37,8 +44,8 @@
 
 | Library | Description | Usage |
 |---------|-------------|-------|
-| [lib-name1](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
-| [lib-name2](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
+| Adafruit SSD1306 | Library for controlling SSD1306-based OLED displays  | Used for interfacing with the OLED display, initializing it, and updating display content. |
+| Adafruit CircuitPython DS3231 | Library for interacting with DS3231 RTC (Real-Time Clock) modules | Used for accessing and managing the RTC module, retrieving time and date information, and synchronizing the clock display.  |
 
 ## Log
 
