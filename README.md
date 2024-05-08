@@ -24,18 +24,18 @@ Additionally, by incorporating features such as temperature and humidity reading
 
 ### Components
 
-
-Component |	Description 
-Raspberry Pi Pico	| Main microcontroller board with RP2040 chip	
-OLED Display (SSD1306) |	Display module for showcasing time, date, and more	
-RTC Module (DS3231) |	Optional module for accurate timekeeping	
-DHT22 Temperature and Humidity Sensor |	Digital sensor for environmental data	
-Push Buttons or Rotary Encoder |	Input devices for user interaction	
-Breadboard and Jumper Wires	| Prototyping tools for circuit connections	
-Resistors and Capacitors |	Passive components for signal conditioning	
-Power Source | USB power adapter or battery pack	
-Enclosure | Protective housing for the project	
-Header Pins	| Male or female connectors for wiring	
+| Component | Description |
+|---------|-------------|
+| Raspberry Pi Pico	| Main microcontroller board with RP2040 chip	
+| OLED Display (SSD1306) |	Display module for showcasing time, date, and more	
+| RTC Module (DS3231) |	Optional module for accurate timekeeping	
+| DHT22 Temperature and Humidity Sensor |	Digital sensor for environmental data	
+| Push Buttons or Rotary Encoder |	Input devices for user interaction	
+| Breadboard and Jumper Wires	| Prototyping tools for circuit connections	
+| Resistors and Capacitors |	Passive components for signal conditioning	
+| Power Source | USB power adapter or battery pack	
+| Enclosure | Protective housing for the project	
+| Header Pins	| Male or female connectors for wiring	
 
 
 ### Libraries
