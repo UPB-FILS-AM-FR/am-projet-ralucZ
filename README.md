@@ -26,16 +26,17 @@ Additionally, by incorporating features such as temperature and humidity reading
 
 | Component | Description |
 |---------|-------------|
-| Raspberry Pi Pico	| Main microcontroller board with RP2040 chip	
-| OLED Display (SSD1306) |	Display module for showcasing time, date, and more	
-| RTC Module (DS3231) |	Optional module for accurate timekeeping	
-| DHT22 Temperature and Humidity Sensor |	Digital sensor for environmental data	
+| Placa UNO R3 | Main microcontroller board
+| 16x2 LED display |	Display module for showcasing time, date, and more	
+| RTC Module (DS1307 I2C) |	Module for accurate timekeeping	
+| DHT11 Temperature and Humidity Sensor |	Digital sensor for environmental data	
 | Push Buttons or Rotary Encoder |	Input devices for user interaction	
 | Breadboard and Jumper Wires	| Prototyping tools for circuit connections	
 | Resistors and Capacitors |	Passive components for signal conditioning	
 | Power Source | USB power adapter or battery pack	
 | Enclosure | Protective housing for the project	
 | Header Pins	| Male or female connectors for wiring	
+| LEDS | Indicating different humidity levels
 
 
 ### Libraries
@@ -44,8 +45,8 @@ Additionally, by incorporating features such as temperature and humidity reading
 
 | Library | Description | Usage |
 |---------|-------------|-------|
-| Adafruit SSD1306 | Library for controlling SSD1306-based OLED displays  | Used for interfacing with the OLED display, initializing it, and updating display content. |
-| Adafruit CircuitPython DS3231 | Library for interacting with DS3231 RTC (Real-Time Clock) modules | Used for accessing and managing the RTC module, retrieving time and date information, and synchronizing the clock display.  |
+| LiquidCrystal | Library for controlling liquid crystal displays (LCDs) in Arduino projects  |  Used for controlling Liquid Crystal Displays (LCDs) by initializing the display and updating content. |
+| DHT | Library for interfacing DHT series temperature and humidity sensors with Arduino | Used for accessing temperature and humidity data from DHT series sensors, initializing them, and retrieving sensor readings. |
 
 ## Log
 
@@ -62,8 +63,9 @@ Additionally, by incorporating features such as temperature and humidity reading
 
 <!-- Fill in with appropriate links and link titles -->
 
-[Tutorial 1](https://www.youtube.com/watch?v=wdgULBpRoXk&t=1s&ab_channel=BenEater)
+[Tutorial 1](https://ro.onetransistor.eu/2017/12/indice-confort-termic-dht11-arduino.html)
 
-[Article 1](https://www.explainthatstuff.com/induction-motors.html)
+[Article 1]((http://nicuflorica.blogspot.com/))
 
-[Link title](https://projecthub.arduino.cc/)
+[Article 2](http://arduinotehniq.blogspot.com/)
+
