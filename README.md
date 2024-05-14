@@ -65,7 +65,7 @@ Additionally, by incorporating features such as temperature and humidity reading
 
 [Tutorial 1](https://ro.onetransistor.eu/2017/12/indice-confort-termic-dht11-arduino.html)
 
-[Article 1]((http://nicuflorica.blogspot.com/))
+[Article 1](http://nicuflorica.blogspot.com/)
 
 [Article 2](http://arduinotehniq.blogspot.com/)
 
