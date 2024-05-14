@@ -16,7 +16,7 @@ Additionally, by incorporating features such as temperature and humidity reading
 ### Block diagram
 
 <!-- Make sure the path to the picture is correct -->
-schema.png
+![Block Diagram](schematics/schema.png)
 
 ### Schematic
 
