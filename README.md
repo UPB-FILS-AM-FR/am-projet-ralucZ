@@ -1,19 +1,22 @@
-# Your Project Name
+# Digital Clock
 
 | | |
 |-|-|
-|`Author` | Your full name
+|`Author` | Zarnescu Raluca-Maria
 
 ## Description
-
+For this project, I aim to create a versatile digital clock using readily available components like the Raspberry Pi Pico microcontroller, an OLED display (such as SSD1306), and optionally, a Real-Time Clock (RTC) module for precise timekeeping. 
+The digital clock will not only display the current time but also offer additional features like showcasing the date, temperature, and humidity readings. 
 ## Motivation
-
+The motivation behind this project is to provide an accessible and educational example of integrating hardware components with the Raspberry Pi Pico microcontroller. 
+By designing a digital clock, we aim to demonstrate the practical application of microcontrollers in everyday devices, 
+Additionally, by incorporating features such as temperature and humidity readings, we enhance the utility of the digital clock, making it more than just a timekeeping device.
 ## Architecture
 
 ### Block diagram
 
 <!-- Make sure the path to the picture is correct -->
-![Block Diagram](schematics/block_diagram.png)
+![Block Diagram](schema_finala.jpg)
 
 ### Schematic
 
@@ -21,15 +24,20 @@
 
 ### Components
 
+| Component | Description |
+|---------|-------------|
+| Placa UNO R3 | Main microcontroller board
+| 16x2 LED display |	Display module for showcasing time, date, and more	
+| RTC Module (DS1307 I2C) |	Module for accurate timekeeping	
+| DHT11 Temperature and Humidity Sensor |	Digital sensor for environmental data	
+| Push Buttons or Rotary Encoder |	Input devices for user interaction	
+| Breadboard and Jumper Wires	| Prototyping tools for circuit connections	
+| Resistors and Capacitors |	Passive components for signal conditioning	
+| Power Source | USB power adapter or battery pack	
+| Enclosure | Protective housing for the project	
+| Header Pins	| Male or female connectors for wiring	
+| LEDS | Indicating different humidity levels
 
-<!-- This is just an example, fill in with your actual components -->
-
-| Device | Usage | Price |
-|--------|--------|-------|
-| Activ Buzzer | Buzzer | [1.5 RON](https://www.optimusdigital.ro/ro/audio-buzzere/635-buzzer-activ-de-3-v.html?search_query=buzzer&results=61) |
-| Push Button | Button | [1 RON](https://www.optimusdigital.ro/ro/butoane-i-comutatoare/1119-buton-6x6x6.html?search_query=buton&results=222) |
-| Jumper Wires | Connecting components | [7 RON](https://www.optimusdigital.ro/ro/fire-fire-mufate/884-set-fire-tata-tata-40p-10-cm.html?search_query=set+fire&results=110) |
-| Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
 
 ### Libraries
 
@@ -37,8 +45,8 @@
 
 | Library | Description | Usage |
 |---------|-------------|-------|
-| [lib-name1](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
-| [lib-name2](link-to-lib) | official description of the lib | Used for accesing the peripherals of the microcontroller  |
+| LiquidCrystal | Library for controlling liquid crystal displays (LCDs) in Arduino projects  |  Used for controlling Liquid Crystal Displays (LCDs) by initializing the display and updating content. |
+| DHT | Library for interfacing DHT series temperature and humidity sensors with Arduino | Used for accessing temperature and humidity data from DHT series sensors, initializing them, and retrieving sensor readings. |
 
 ## Log
 
@@ -55,8 +63,9 @@
 
 <!-- Fill in with appropriate links and link titles -->
 
-[Tutorial 1](https://www.youtube.com/watch?v=wdgULBpRoXk&t=1s&ab_channel=BenEater)
+[Tutorial 1](https://ro.onetransistor.eu/2017/12/indice-confort-termic-dht11-arduino.html)
 
-[Article 1](https://www.explainthatstuff.com/induction-motors.html)
+[Article 1](http://nicuflorica.blogspot.com/)
 
-[Link title](https://projecthub.arduino.cc/)
+[Article 2](http://arduinotehniq.blogspot.com/)
+
