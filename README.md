@@ -30,14 +30,16 @@ Additionally, by incorporating features such as temperature and humidity reading
 | 16x2 LED display |	Display module for showcasing time, date, and more	
 | RTC Module (DS1307 I2C) |	Module for accurate timekeeping	
 | DHT11 Temperature and Humidity Sensor |	Digital sensor for environmental data	
+| MQ 135 Detector | Detects harmful, toxic gases in the air
+| Electrolytic Capacitor | Regulates the voltage
 | Push Buttons or Rotary Encoder |	Input devices for user interaction	
 | Breadboard and Jumper Wires	| Prototyping tools for circuit connections	
 | Resistors and Capacitors |	Passive components for signal conditioning	
 | Power Source | USB power adapter or battery pack	
 | Enclosure | Protective housing for the project	
 | Header Pins	| Male or female connectors for wiring	
-| LEDS | Indicating different humidity levels
-
+| LEDs | Indicating different humidity levels (for ITU)
+| Addressable LEDs | Provide a wider range of colors for the ITU and AQ
 
 ### Libraries
 
@@ -47,6 +49,7 @@ Additionally, by incorporating features such as temperature and humidity reading
 |---------|-------------|-------|
 | LiquidCrystal | Library for controlling liquid crystal displays (LCDs) in Arduino projects  |  Used for controlling Liquid Crystal Displays (LCDs) by initializing the display and updating content. |
 | DHT | Library for interfacing DHT series temperature and humidity sensors with Arduino | Used for accessing temperature and humidity data from DHT series sensors, initializing them, and retrieving sensor readings. |
+| Adafruit Unified Sensor 1.1.14 | Abstraction layer for accessing various sensors with a unified method, simplifying sensor integration | Used for common functions to initialize sensors, read sensor data, and perform operations. |
 
 ## Log
 
