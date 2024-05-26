@@ -13,14 +13,11 @@ By designing a digital clock, we aim to demonstrate the practical application of
 Additionally, by incorporating features such as temperature and humidity readings, we enhance the utility of the digital clock, making it more than just a timekeeping device.
 ## Architecture
 
-### Block diagram
+### Block diagram + Schematic
 
 <!-- Make sure the path to the picture is correct -->
 ![Block Diagram](schema_finala.jpg)
 
-### Schematic
-
-![Schematic](schematics/kicad_schematic.png)
 
 ### Components
 
