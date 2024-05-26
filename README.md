@@ -5,12 +5,15 @@
 |`Author` | Zarnescu Raluca-Maria
 
 ## Description
-For this project, I aim to create a versatile digital clock using readily available components like the Raspberry Pi Pico microcontroller, an OLED display (such as SSD1306), and optionally, a Real-Time Clock (RTC) module for precise timekeeping. 
-The digital clock will not only display the current time but also offer additional features like showcasing the date, temperature, and humidity readings. 
+For this project, I aim to create a versatile digital clock using readily available components like the Arduino UNO microcontroller, a 16x2 LED display, and a Real-Time Clock (RTC) module for precise timekeeping. 
+The digital clock will not only display the current time but also offer additional features like showcasing the temperature, the thermal comfort index (ITU) and the quality of air (AQ).
+It uses three buttons to set the time on the clock and 2 bands of addressable LEDs (Neopixel) to indicate through its various range of color the precalculated level of the ITU and AQ.
+
 ## Motivation
-The motivation behind this project is to provide an accessible and educational example of integrating hardware components with the Raspberry Pi Pico microcontroller. 
-By designing a digital clock, we aim to demonstrate the practical application of microcontrollers in everyday devices, 
-Additionally, by incorporating features such as temperature and humidity readings, we enhance the utility of the digital clock, making it more than just a timekeeping device.
+The motivation behind this project is to provide an accessible and educational example of integrating hardware components with the Arduino UNO microcontroller. 
+By designing a digital clock, we aim to demonstrate the practical application of microcontrollers in everyday devices. 
+Additionally, by incorporating features such as temperature, humidity and air quality readings, we enhance the utility of the digital clock, making it more than just a timekeeping device.
+
 ## Architecture
 
 ### Block diagram + Schematic
@@ -36,7 +39,7 @@ Additionally, by incorporating features such as temperature and humidity reading
 | Enclosure | Protective housing for the project	
 | Header Pins	| Male or female connectors for wiring	
 | LEDs | Indicating different humidity levels (for ITU)
-| Addressable LEDs | Provide a wider range of colors for the ITU and AQ
+| Addressable LEDs (Neopixel) | Provide a wider range of colors for the ITU and AQ
 
 ### Libraries
 
