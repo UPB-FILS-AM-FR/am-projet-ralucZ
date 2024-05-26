@@ -63,27 +63,26 @@ Additionally, by incorporating features such as temperature and humidity reading
 
 <!-- Fill in with appropriate links and link titles -->
 
-[Article 1]: https://arduinotehniq.blogspot.com/2014/09/weather-station-manual-adjust-for-rtc.html#google_vignette
+[Article 1](https://arduinotehniq.blogspot.com/2014/09/weather-station-manual-adjust-for-rtc.html#google_vignette)
 
-[Article 2]: https://ro.onetransistor.eu/2017/12/indice-confort-termic-dht11-arduino.html
+[Article 2](https://ro.onetransistor.eu/2017/12/indice-confort-termic-dht11-arduino.html)
 
-[Article 3]: http://learn.adafruit.com/ds1307-real-time-clock-breakout-board-kit/
+[Article 3](http://learn.adafruit.com/ds1307-real-time-clock-breakout-board-kit/)
 
-[Article 4]: http://nicuflorica.blogspot.ro/
+[Article 4](http://nicuflorica.blogspot.ro/)
 
-[Article 5]: https://docs.arduino.cc/
+[Article 5](https://docs.arduino.cc/)
 
-[Article 6]: http://pesd.ro/articole/nr.1/Teodoreanu.pdf
+[Article 6](http://pesd.ro/articole/nr.1/Teodoreanu.pdf)
 
-[Article 7]: https://starea-vremii.ro/blog/ce-este-indicele-de-confort-termic-heat-index-si-cum-se-calculeaza
+[Article 7](https://starea-vremii.ro/blog/ce-este-indicele-de-confort-termic-heat-index-si-cum-se-calculeaza)
 
-[Article 8]: https://www.winsen-sensor.com/product/mq135.html
+[Article 8](https://www.winsen-sensor.com/product/mq135.html)
 
-[Article 9]: https://www.hackster.io/m_karim02/arduino-and-mq-135-gas-sensor-with-arduino-code-a8c1c6
+[Article 9](https://www.hackster.io/m_karim02/arduino-and-mq-135-gas-sensor-with-arduino-code-a8c1c6)
 
-[Article 10]: https://www.makerguides.com/air-pollution-monitoring-and-alert-system-using-arduino-and-mq135/
+[Article 10](https://www.makerguides.com/air-pollution-monitoring-and-alert-system-using-arduino-and-mq135/)
 
-[Article 11]: https://www.instructables.com/How-to-Control-WS2812-RGB-LED-NeoPixel-W-Arduino-T/
+[Article 11](https://www.instructables.com/How-to-Control-WS2812-RGB-LED-NeoPixel-W-Arduino-T/)
 
-[Article 12]: https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use
-
+[Article 12](https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use)
